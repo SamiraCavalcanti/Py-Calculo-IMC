@@ -27,7 +27,7 @@ elif imc < 24.9:
     print(f'Peso normal - IMC: {imc:.2f}')
 elif imc < 29.9:
     print(f'Pré obesidade - IMC: {imc:.2f}')
-elif imc < 34.9:  # Corrigido aqui, faltou um ":" no final
+elif imc < 34.9:  
     print(f'Obsedade Grau I - IMC: {imc:.2f}')
 elif imc < 39.9:
     print(f'Obesidade Grau II - IMC: {imc:.2f}')
